@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
             echo 'fadsdf'
           }
@@ -21,6 +21,12 @@ pipeline {
     stage('dsfdsaf') {
       steps {
         echo 'dfsaf'
+      }
+    }
+
+    stage('sss') {
+      steps {
+        echo 's'
       }
     }
 
