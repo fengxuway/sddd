@@ -6,6 +6,7 @@ pipeline {
         stage('qq') {
           steps {
             echo '454'
+            sh 'll'
           }
         }
 
